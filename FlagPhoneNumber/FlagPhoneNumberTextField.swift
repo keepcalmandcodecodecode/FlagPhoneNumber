@@ -342,7 +342,7 @@ open class FPNTextField: UITextField, UITextFieldDelegate, FPNCountryPickerDeleg
 		doneButton.accessibilityLabel = "doneButton"
 
 		if parentViewController != nil {
-			let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(displayAlphabeticKeyBoard))
+			let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(displayAlphabeticKeyBoard))
 
 			searchButton.accessibilityLabel = "searchButton"
 
